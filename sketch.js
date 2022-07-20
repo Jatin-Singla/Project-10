@@ -35,7 +35,7 @@ function draw() {
   sea.velocityX = -3;
 
   //uncomment code to reset the background
-  if(sea.x < 0||mouseDown(){
+  if(sea.x < 0||keyDown("up")){
    //sea.x = 0;
     //sea.x = sea.width;
     sea.x = sea.width/8;
